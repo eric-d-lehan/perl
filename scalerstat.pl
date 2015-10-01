@@ -2,7 +2,6 @@
 #####################
 ###elehan
 ###Script to easily find and stat objects on the netscalers
-###Can also be used as a replacement for the scalersearch.sh and surge_check.sh scripts
 #####################
 use strict;
 use warnings;
