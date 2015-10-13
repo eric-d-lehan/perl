@@ -50,7 +50,7 @@ if (!($ARGV[0] eq "") && (!defined $filter) ) {$filter = $ARGV[0];} #if there is
 
 
 OPTIONSWITCH: {
-		if (defined $version) { &printVersion(); exit 0;}
+	if (defined $version) { &printVersion(); exit 0;}
         if (defined $help) { &printUsage(); exit 0;}
         if (defined $createdb) { &createdb(); exit 0;}
         if (defined $list) { &netscalerlist(); exit 0;}
